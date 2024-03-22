@@ -1,0 +1,347 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+.navbar .navbar-brand{
+    margin-left: 80px;
+    /* background-color: brown; */
+    /* color: white; */
+    color: brown;
+    padding: 10px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.navbar-nav {
+    width: 100%;
+    font-size: 20px;
+    background-color: white;
+    padding: 20px;
+}
+
+.navbar-nav a {
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+.navbar-nav a:hover {
+    scale: 1.1;
+    text-decoration: underline;
+    color: red;
+}
+.img{
+    background: linear-gradient(transparent, black);
+}
+.img img {
+    width: 100%;
+    height: 550px;
+    filter: contrast(0.4) brightness(1.3);
+    /* opacity: 0.7; */
+}
+
+.main {
+    position: relative;
+}
+
+.img {
+    position: relative;
+}
+.img_head h1{
+    position: absolute;
+    left: 20rem;
+    top: 13rem;
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+.img_btn {
+    position: absolute;
+    left: 39rem;
+    /* top: 10rem; */
+    bottom: 13rem;
+}
+.img_btn a{
+    margin-left: 8px;
+}
+.img_btn button{
+    font-size: 20px;
+    font-weight: 500;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: green;
+    text-decoration: underline;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.834);
+    height: auto;
+    width: 100%;
+    color: white;
+}
+
+footer h5 {
+    color: white;
+}
+
+.bottom {
+    color: white;
+}
+
+.link a {
+    text-decoration: none;
+    font-size: 18px;
+    margin: 5px 80px;
+    color: black;
+    text-decoration: underline;
+}
+
+.link a:hover {
+    scale: 1.1;
+    color: blue;
+}
+
+.font_awesome svg {
+    color: black;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.font_awesome svg:hover {
+    scale: 1.1;
+}
+
+.enquiry_form p {
+    margin: 5px 60px;
+}
+
+.enquiry_form h5 {
+    margin: 5px 30px;
+}
+
+.enquiry_form h4 {
+    margin: 40px 30px;
+}
+
+.enqiry_img .card img {
+    height: 280px;
+    cursor: pointer;
+}
+
+label {
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+.img_gallery {
+    cursor: pointer;
+}
+
+.img_gallery img:hover {
+    scale: 1.1;
+}
+
+.img_gallery .card img {
+    height: 200px;
+}
+
+form {
+    padding: 0px 25px 0px 25px;
+    user-select: none;
+}
+
+input {
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+input:hover {
+    background-color: rgb(242, 233, 233);
+}
+
+select {
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+select:hover {
+    background-color: rgb(242, 233, 233);
+}
+
+textarea {
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+textarea:hover {
+    background-color: rgb(242, 233, 233);
+}
+
+.contact_card {
+    padding: 30px 40px;
+}
+
+.font_awesome a {
+    text-decoration: none;
+    color: black;
+}
+
+.rule-text h2 {
+    color: red;
+}
+
+.rule-text h4 {
+    color: red;
+}
+
+.rule-text h5 {
+    color: red;
+}
+
+.login_btn button {
+    width: 30%;
+}
+
+form a {
+    text-decoration: none;
+}
+
+.login-header {
+    margin-top: 80px;
+}
+
+.login-header p {
+    padding-left: 25px;
+    padding-top: 25px;
+}
+
+.login-header h4 {
+    margin-top: 25px;
+}
+
+.signup-header h3 {
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.signup-header p {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.signup-header h4 {
+    margin-left: 25px;
+}
+
+.login-header h4 {
+    margin-left: 25px;
+}
+
+.login-card {
+    position: relative;
+}
+
+.login-card>p {
+    width: 100%;
+    margin: 1rem 0;
+    padding: 0 1rem;
+    text-align: right;
+}
+
+.login-card>p a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    color: rgba(231, 14, 212, 0.359);
+}
+
+
+.login-card>b {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: 0.5s ease;
+    cursor: pointer;
+    user-select: none;
+}
+
+.login-card>b:hover {
+    scale: 0.95;
+}
+
+.login-card svg {
+    width: 20px;
+    height: 20px;
+}
+
+.login-card a {
+    text-decoration: none;
+    color: black;
+}
+
+.checkbox {
+    display: flex;
+}
+
+.checkbox input {
+    margin-top: 4px;
+}
+
+.checkbox p {
+    padding-left: 10px;
+}
+
+.admission a {
+    text-decoration: none;
+    text-decoration: underline;
+}
+.img_head p{
+    position: absolute;
+    left: 37rem;
+    top: 15rem;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+.img_head h3{
+    position: absolute;
+    left: 42rem;
+    top: 13rem;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+.hostel_link a{
+    text-decoration: none;
+    /* padding-left: 1px; */
+    color: black;
+    font-size: 18px;
+}
+.hostel_link a:hover{
+    scale: 1.1;
+    color: purple;
+}
+.admission-content a{
+    text-decoration: none;
+    color: black;
+}
+.admission-content a:hover{
+    color: green;
+    transition: 0.9s ease;
+}
